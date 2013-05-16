@@ -1,0 +1,13 @@
+{
+	"name" : "ElFinder",
+	"description" : "Integrates ElFinder File Manager into Croogo",
+
+	"author" : "Paul Gardner",
+	"authorEmail" : "phpmagpie@webbedit.co.uk",
+	"authorUrl" : "http://webbedit.co.uk",
+
+	"dependencies": {
+		"plugins": [
+		]
+	}
+}
