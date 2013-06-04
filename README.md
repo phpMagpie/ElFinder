@@ -14,4 +14,10 @@ automatically set TinyMCE's image/file browser to use elFinder.
 1. Clone repository to /app/Plugin/ElFinder, and activate the plugin from your admin panel.
 2. Create a symlink in /app/webroot called ElFinder to ../Plugin/ElFinder/webroot
 
-The second step bypasses CakePHP's plugin routing when calling elFinder by ajax.
+The second step bypasses CakePHP's plugin routing when calling elFinder by ajax.  
+
+On my Redhat Linux server I run the following as root:
+
+1. cd /app/webroot
+2. ln -s ../Plugin/ElFinder/webroot/ ElFinder
+3. chown -h sdtadmin:sdtadmin ElFinder
