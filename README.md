@@ -20,4 +20,4 @@ On my Redhat Linux server I run the following as root:
 
 1. cd /app/webroot
 2. ln -s ../Plugin/ElFinder/webroot/ ElFinder
-3. chown -h sdtadmin:sdtadmin ElFinder
+3. chown -h %youruser%:%yourgroup% ElFinder
