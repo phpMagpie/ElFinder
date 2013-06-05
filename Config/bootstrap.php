@@ -1,7 +1,7 @@
 <?php
 
 CroogoNav::add('media.children.attachments', array(
-	'title' => __d('croogo', 'ElFinder'),
+	'title' => __d('croogo', 'Attachments'),
 	'url' => array(
 		'admin' => true,
 		'plugin' => 'el_finder',

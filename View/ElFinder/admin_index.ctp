@@ -4,7 +4,7 @@ $this->extend('/Common/admin_index');
 
 $this->Html
 	->addCrumb('', '/admin', array('icon' => 'home'))
-	->addCrumb('ElFinder Attachments', array('controller' => 'el_finder', 'action' => 'index'));
+	->addCrumb('Attachments (elFinder)', array('controller' => 'el_finder', 'action' => 'index'));
 ?>
 
 <script type="text/javascript" charset="utf-8">
