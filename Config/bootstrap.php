@@ -10,4 +10,4 @@ CroogoNav::add('media.children.attachments', array(
 	),
 ));
 
-Croogo::hookHelper('ElFinder', 'ElFinder.ElFinder');
+Croogo::hookHelper('*', 'ElFinder.ElFinder');
