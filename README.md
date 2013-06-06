@@ -2,12 +2,12 @@
 
 Plugin for integrating [elFinder](http://elfinder.org/) into [Croogo](http://croogo.org).
 
-Requires Croogo v1.5 or higher, replaces FileManager/Attachments/admin_index with
+Requires Croogo v1.5 or higher, replaces FileManager::Attachments with
 a more advanced file manager allowing folder management, context menus, drag and drop 
 uploads/moves and image editing amongst other things.
 
-Also, if you install this and my [TinyMCE 4 plugin](https://github.com/phpMagpie/Tinymce) it will 
-automatically set TinyMCE's image/file browser to use elFinder.
+Auto configures Ckeditor to use elFinder as a file browser.  I've also released a plugin for 
+[TinyMCE 4 plugin](https://github.com/phpMagpie/Tinymce) that works with this plugin.
 
 ## Installation
 
